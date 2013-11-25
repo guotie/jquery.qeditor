@@ -35,9 +35,6 @@ QEDITOR_TOOLBAR_HTML = """
       <li><a href="#" data-name="h1" class="qe-h1">Heading 1</a></li>
       <li><a href="#" data-name="h2" class="qe-h2">Heading 2</a></li>
       <li><a href="#" data-name="h3" class="qe-h3">Heading 3</a></li>
-      <li><a href="#" data-name="h4" class="qe-h4">Heading 4</a></li>
-      <li><a href="#" data-name="h5" class="qe-h5">Heading 5</a></li>
-      <li><a href="#" data-name="h6" class="qe-h6">Heading 6</a></li>
       <li class="qe-hline"></li>
       <li><a href="#" data-name="p" class="qe-p">Paragraph</a></li>
     </ul>
@@ -57,7 +54,7 @@ QEDITOR_TOOLBAR_HTML = """
   <a href="#" onclick="return QEditor.toggleFullScreen(this);" class="qe-fullscreen pull-right"><span class="icon-fullscreen" title="Toggle Fullscreen"></span></a> 
 </div>
 """
-QEDITOR_ALLOW_TAGS_ON_PASTE = "div,p,ul,ol,li,hr,br,b,strong,i,em,img,h2,h3,h4,h5,h6,h7"
+QEDITOR_ALLOW_TAGS_ON_PASTE = "div,p,ul,ol,li,hr,br,b,strong,i,em,img,h2,h3"
 QEDITOR_DISABLE_ATTRIBUTES_ON_PASTE = ["style","class","id","name","width","height"]
 
 window.QEditor = 
