@@ -48,7 +48,7 @@ QEDITOR_TOOLBAR_HTML = """
   <span class="vline"></span> 
   <a href="#" data-action="insertHorizontalRule" class="qe-hr"><span class="icon-minus" title="Insert Horizontal Rule"></span></a> 
   <a href="#" data-action="blockquote" class="qe-blockquote"><span class="icon-quote-left" title="Blockquote"></span></a> 
-  <a href="#" data-action="pre" class="qe-pre"><span class="icon-code" title="Pre"></span></a> 
+
   <a href="#" data-action="createLink" class="qe-link"><span class="icon-link" title="Create Link" title="Create Link"></span></a> 
   <a href="#" data-action="insertimage" class="qe-image"><span class="icon-picture" title="Insert Image"></span></a> 
   <a href="#" onclick="return QEditor.toggleFullScreen(this);" class="qe-fullscreen pull-right"><span class="icon-fullscreen" title="Toggle Fullscreen"></span></a> 
